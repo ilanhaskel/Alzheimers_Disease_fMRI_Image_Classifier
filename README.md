@@ -24,6 +24,7 @@ The below graph shows the resulting distribution of the data:
 Also, here are some examples of f-MRI images from each category:
 
 Healthy
+
 ![healthy](images/healthy.jpg)
 
 
