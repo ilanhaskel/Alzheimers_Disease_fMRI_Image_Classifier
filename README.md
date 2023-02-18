@@ -76,3 +76,9 @@ Given its speed and accuracy, the machine learning tool I've developed shows con
 1.   The model can continue to learn and adjust with new patient data. Training the model on additional patient data, including past and future data, will help improve the model's accuracy and fine-tune the model's performance for the hospital's patients.
 2.   The current model will need to be integrated with a hospital's IT system to maintain patient confidentiality, ensure HIPAA compliancy, and create efficient workflows. I recommend testing the current model with a pilot system under supervision from experts. This period will both confirm the accuracy of the model and help adjust any system processes.
 3.   It could be beneficial to train similar models using not only fMRI but also other imaging techniques, such as CT, PET, sMRI, and DTI. This would allow for further diagnostic confidence if each model were to return the same diagnosis. If there were to be a discrepancy or inconsistency between model predictions, it would signal experts to apply further scrutiny and consider using other diagnostic tools.
+
+---
+
+## For More Information:
+
+See the full analysis in the [Notebook](./index.ipynb) or review this [presentation](./Presentation.pdf)
