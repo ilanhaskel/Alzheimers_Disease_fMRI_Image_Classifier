@@ -53,7 +53,14 @@ For the third model I added two preprocessing layers incorporating data augmenta
 
 Unfortunately, it appears that adding the data augmentation layers made our model perform significantly worse on both validation and training data across all relevant metrics. Upon doing some research, it is possible that the current version of tensorflow is experiencing some bugs regarding the implementation of data augmentation in Sequential models, so the preprocessing layers were not chosen for inclusion in the final model.
 
-The final model was defined in the same way as the second model, as it performed the most accurately, with the addition of some preprocessing layers that resize and rescale images such that images of any size can be run through the model once deployed. Overall, this model performed extremely well relative to chance performance without becoming too overfit, as seen in the evaluation plots below:
+The final model was defined in the same way as the second model, as it performed the most accurately, with the addition of some preprocessing layers that resize and rescale images such that images of any size can be run through the model once deployed. Overall, this model performed extremely well relative to current accuracy standards of f-MRI-based Alzheimer's diagnosis without becoming too overfit, as seen in the evaluation plots below:
 
 ![evaluation](images/evaluation.png)
 
+The final model yielded an accuracy of ~98% and recall of ~98%, while only producing 8 false negatives through its predictions. This equates to a false-negative rate of under 1%.
+
+## VI. Model Deployment - Gradio
+
+I used Gradio to temporarily deploy a functional web-app version of the model running locally off of this notebook. Unfortunately, more permanent cloud-based hosting was untenable given the size of the resulting model and a lack of necessary computing power. If interested in recreating the app, follow the steps in the notebook after properly preparing the data. For reference of how deployment looks like, I have included the below screenshot of the web-app:
+
+![gradio](images/gradio.png)
