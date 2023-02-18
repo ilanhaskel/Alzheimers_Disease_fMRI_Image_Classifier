@@ -21,8 +21,19 @@ The below graph shows the resulting distribution of the data:
 
 ![distribution](images/distribution.png)
 
-Also, here are some examples of f-MRI images from each category:
+Here are some examples of f-MRI images from each category:
 
 Healthy   |  Very Mild Demented | Mild Demented | Moderate Demented
 :-------------------------:|:-------------------------:|:-------------------------:|:---------------------:
 ![healthy](images/healthy.jpg)  |  ![verymild](images/verymild.jpg) | ![mild](images/mild.jpg) | ![moderate](images/moderate.jpg)
+
+## III. Data Preparation
+
+After reading in the data, it was instantiated as images and labels and converted into a NumPy array for ease of processing. Then, I split the data into a training set, a validation set, and a test set, in order to begin modeling. Finally, I normalized the image matrices.
+
+For more details on my data preparation process, please refer to the final notebook.
+
+## IV. Disclaimer - Reproducibility
+
+Due to limitations of local computing power (M1 Macs have certain technical difficulties when working with Tensorflow), all model creation and training had to be done using cloud computing via Google Colab. If interested in recreating this notebook, you will need to download the training data from [Kaggle](https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset) and upload it to your personal google drive, placing it in a folder titled 'data'. Within this folder, create separate additional folders for positive and negative alzheimer's diagnoses, and upload the relevant images of each kind into their respective folders. You can also copy [this](https://drive.google.com/drive/folders/1Z6Ro2Kx4_-ZwOhWxn-mzXspU6UnGup8Z?usp=sharing) folder from my own google drive containing the data as it needs to be organized. Furthermore, it appears that the random seeds did not work perfectly, so upon reproduction the models in this notebook are likely to perform marginally different (~0.5% difference in accuracy from personal testing) to the results discussed in the evaluation sections of this notebook.
+
