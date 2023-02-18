@@ -82,3 +82,11 @@ Given its speed and accuracy, the machine learning tool I've developed shows con
 ## For More Information:
 
 See the full analysis in the [Notebook](./index.ipynb) or review this [presentation](./Presentation.pdf)
+
+### Contact Information
+
+Feel free to contact me through LinkedIn, email, or Github:
+
+| Name & LinkedIn                                              | Email                  | Github                                         |
+| ------------------------------------------------------------ | ---------------------- | ---------------------------------------------- |
+| [Ilan Haskel](https://www.linkedin.com/in/ilan-haskel-86280812b/) | ilanhaskel97@gmail.com | [@ilanhaskel](https://github.com/ilanhaskel)   |
