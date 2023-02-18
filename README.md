@@ -90,3 +90,22 @@ Feel free to contact me through LinkedIn, email, or Github:
 | Name & LinkedIn                                              | Email                  | Github                                         |
 | ------------------------------------------------------------ | ---------------------- | ---------------------------------------------- |
 | [Ilan Haskel](https://www.linkedin.com/in/ilan-haskel-86280812b/) | ilanhaskel97@gmail.com | [@ilanhaskel](https://github.com/ilanhaskel)   |
+
+
+## Repository Structure
+
+```
+├── images
+│   ├── distribution.png
+│   ├── evaluation.png
+│   ├── gradio.png
+│   ├── header.jpeg
+│   ├── healthy.jpg
+│   ├── mild.jpg
+│   ├── moderate.jpg
+│   └── verymild.jpg
+├── .gitignore
+├── Presentation.pdf
+├── README.md
+└── index.ipynb
+```
