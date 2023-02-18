@@ -64,3 +64,15 @@ The final model yielded an accuracy of ~98% and recall of ~98%, while only produ
 I used Gradio to temporarily deploy a functional web-app version of the model running locally off of this notebook. Unfortunately, more permanent cloud-based hosting was untenable given the size of the resulting model and a lack of necessary computing power. If interested in recreating the app, follow the steps in the notebook after properly preparing the data. For reference of how deployment looks like, I have included the below screenshot of the web-app:
 
 ![gradio](images/gradio.png)
+
+## Conclusion
+
+My final model is able to diagnose Alzheimer's Disease with an accuracy superior to modern, tool-assisted, f-MRI interpretation conducted by radiologists and neurologists (98% accuracy). Furthermore, my model is designed to minimize false-negative diagnoses and does so with a false-negative rate of under 1%.
+
+Given its speed and accuracy, the machine learning tool I've developed shows considerable promise in guiding physician decisions.
+
+## Next Steps
+
+1.   The model can continue to learn and adjust with new patient data. Training the model on additional patient data, including past and future data, will help improve the model's accuracy and fine-tune the model's performance for the hospital's patients.
+2.   The current model will need to be integrated with a hospital's IT system to maintain patient confidentiality, ensure HIPAA compliancy, and create efficient workflows. I recommend testing the current model with a pilot system under supervision from experts. This period will both confirm the accuracy of the model and help adjust any system processes.
+3.   It could be beneficial to train similar models using not only fMRI but also other imaging techniques, such as CT, PET, sMRI, and DTI. This would allow for further diagnostic confidence if each model were to return the same diagnosis. If there were to be a discrepancy or inconsistency between model predictions, it would signal experts to apply further scrutiny and consider using other diagnostic tools.
