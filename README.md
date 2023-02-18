@@ -23,6 +23,6 @@ The below graph shows the resulting distribution of the data:
 
 Also, here are some examples of f-MRI images from each category:
 
-Healthy   |  Very Mild Demented | 
-:-------------------------:|:-------------------------:
-![healthy](images/healthy.jpg)  |  ![verymild](images/verymild.jpg)
+Healthy   |  Very Mild Demented | Mild Demented | Moderate Demented
+:-------------------------:|:-------------------------:|:-------------------------:|:---------------------:
+![healthy](images/healthy.jpg)  |  ![verymild](images/verymild.jpg) | ![mild](images/mild.jpg) | ![moderate](images/moderate.jpg)
